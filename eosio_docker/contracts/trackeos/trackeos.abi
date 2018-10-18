@@ -1,0 +1,188 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Wed Oct 17 13:46:06 2018",
+    "version": "eosio::abi/1.0",
+    "structs": [
+        {
+            "name": "addhandler",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "name": "last_name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "addprod",
+            "base": "",
+            "fields": [
+                {
+                    "name": "initiator",
+                    "type": "name"
+                },
+                {
+                    "name": "product",
+                    "type": "string"
+                },
+                {
+                    "name": "producer",
+                    "type": "string"
+                },
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "handler",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "name": "last_name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "procedure",
+            "base": "",
+            "fields": [
+                {
+                    "name": "processId",
+                    "type": "uint64"
+                },
+                {
+                    "name": "productKey",
+                    "type": "uint64"
+                },
+                {
+                    "name": "processor",
+                    "type": "string"
+                },
+                {
+                    "name": "procedure_name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "process",
+            "base": "",
+            "fields": [
+                {
+                    "name": "processor",
+                    "type": "name"
+                },
+                {
+                    "name": "productKey",
+                    "type": "uint64"
+                },
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "procedure_name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "product",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "uint64"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "producer",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "updateh",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "addhandler",
+            "type": "addhandler",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addprod",
+            "type": "addprod",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "process",
+            "type": "process",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "updateh",
+            "type": "updateh",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "handlers",
+            "type": "handler",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "procedures",
+            "type": "procedure",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "products",
+            "type": "product",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "abi_extensions": []
+}

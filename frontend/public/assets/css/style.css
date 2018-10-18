@@ -1,0 +1,48 @@
+body{
+    background-color: #0d0d0d;    
+    color: #ffffff;
+    text-transform: uppercase;
+    /* background-image: url("../img/arrows.png");
+    background-repeat: repeat; */
+    background-position: bottom;
+}
+
+.bg-red{
+    background-color: #BD2431;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: #000000;
+}
+
+
+/* -------------INITIATE----------- */
+.bg-black{    
+    background-color: #000000;
+    
+    /* color: #000000; */
+}
+.initiate{
+    margin-top:10vh;
+    height: 70vh;
+}
+#initiateform{
+    padding:2vh;
+    color:#ffffff;
+}
+
+#initiateform input{
+    
+    background-color: #000000;
+    color:#ffffff;
+}
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+    
+    margin-top:20vh;
+}
