@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import  Initiate  from "./components/layout/Initiate";
-import Process from "./components/layout/Process";
 import Navbar from "./components/layout/Navbar";
 import Final from "./components/layout/Final";
 import './App.css';
@@ -19,7 +18,6 @@ class App extends Component {
           >
             <Navbar/>
               <Route exact path="/start" component={Initiate} />
-              <Route exact path="/process" component={Process} />
               <Route exact path="/final" component={Final} />
           </div>
       </div>
