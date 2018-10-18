@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-red" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img height="30" src={require('../../img/logo-white.png')} /></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 
             <i class="fas fa-bars"></i>
